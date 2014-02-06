@@ -1,9 +1,18 @@
 body {
 	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
+/*Base nav styling*/
+li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+
+nav a {
+	background: green;
+	padding: 20px;
 }
 
 /* Helper Classes */
